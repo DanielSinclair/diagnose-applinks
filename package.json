@@ -1,0 +1,30 @@
+{
+  "name": "diagnose-applinks",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "bin/index.js",
+  "bin": {
+    "diagnose-applinks": "./bin/index.js"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "author": "Daniel Sinclair",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "fs-extra": "^10.1.0",
+    "gunzip-maybe": "^1.4.2",
+    "stream-to-string": "^1.2.0",
+    "tar-stream": "^2.2.0",
+    "unzip-stream": "0.3.1"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
