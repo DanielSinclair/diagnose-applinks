@@ -9,7 +9,7 @@ import toString from 'stream-to-string'
 program
   .name('diagnose-applinks')
   .requiredOption('-b, --bundle <bundle id>', 'app bundle identifier')
-  .requiredOption('-s, --sysdiagnose <zip path>', 'path to sysdiagnose .tar.gz')
+  .requiredOption('-s, --sysdiagnose <tar.gz path>', 'path to sysdiagnose tar.gz')
   .option('-o, --json', 'json output flag')
   .parse(process.argv)
 
