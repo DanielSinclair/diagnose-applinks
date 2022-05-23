@@ -1,7 +1,7 @@
 {
   "name": "diagnose-applinks",
   "version": "1.0.0",
-  "description": "",
+  "description": "parse swcutil_show from sysdiagnose to diagnose universal link problems on iOS",
   "source": "src/index.js",
   "main": "bin/index.js",
   "bin": {
@@ -17,12 +17,11 @@
     "node": ">=12"
   },
   "dependencies": {
-    "commander": "^9.2.0",
-    "fs-extra": "^10.1.0",
-    "gunzip-maybe": "^1.4.2",
-    "stream-to-string": "^1.2.0",
-    "tar-stream": "^2.2.0",
-    "unzip-stream": "0.3.1"
+    "commander": "9.2.0",
+    "fs-extra": "10.1.0",
+    "gunzip-maybe": "1.4.2",
+    "stream-to-string": "1.2.0",
+    "tar-stream": "2.2.0"
   },
   "devDependencies": {
     "parcel": "latest"
